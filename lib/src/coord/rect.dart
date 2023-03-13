@@ -171,7 +171,7 @@ class RectRegionColorRenderOp extends RegionBackgroundRenderOp {
   RectRegionColorRenderOp(
     Map<String, dynamic> params,
     RegionBackgroundScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 
   @override
@@ -193,7 +193,7 @@ class RectRegionGradientRenderOp extends RegionBackgroundRenderOp {
   RectRegionGradientRenderOp(
     Map<String, dynamic> params,
     RegionBackgroundScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 
   @override

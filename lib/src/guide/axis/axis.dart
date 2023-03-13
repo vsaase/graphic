@@ -254,7 +254,7 @@ class AxisRenderOp extends Render<AxisScene> {
   AxisRenderOp(
     Map<String, dynamic> params,
     AxisScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 
   @override
@@ -318,7 +318,7 @@ class GridScene extends Scene {
 
 /// The axis grid render operator.
 class GridRenderOp extends Render<GridScene> {
-  GridRenderOp(Map<String, dynamic> params, GridScene scene, View view)
+  GridRenderOp(Map<String, dynamic> params, GridScene scene, GraphicView view)
       : super(params, scene, view);
 
   @override

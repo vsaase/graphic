@@ -87,7 +87,7 @@ class CrosshairRenderOp extends Render<CrosshairScene> {
   CrosshairRenderOp(
     Map<String, dynamic> params,
     CrosshairScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 
   @override

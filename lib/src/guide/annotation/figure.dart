@@ -111,7 +111,7 @@ class FigureAnnotRenderOp extends AnnotRenderOp<FigureAnnotScene> {
   FigureAnnotRenderOp(
     Map<String, dynamic> params,
     FigureAnnotScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 
   @override

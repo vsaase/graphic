@@ -282,7 +282,7 @@ class PolarRegionColorRenderOp extends RegionBackgroundRenderOp {
   PolarRegionColorRenderOp(
     Map<String, dynamic> params,
     RegionBackgroundScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 
   @override
@@ -308,7 +308,7 @@ class PolarRegionGradientRenderOp extends RegionBackgroundRenderOp {
   PolarRegionGradientRenderOp(
     Map<String, dynamic> params,
     RegionBackgroundScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 
   @override

@@ -272,7 +272,7 @@ class SelectorRenderOp extends Render<SelectorScene> {
   SelectorRenderOp(
     Map<String, dynamic> params,
     SelectorScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 
   @override

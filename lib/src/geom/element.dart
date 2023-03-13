@@ -219,7 +219,7 @@ class ElementRenderOp extends Render<ElementScene> {
   ElementRenderOp(
     Map<String, dynamic> params,
     ElementScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 
   @override

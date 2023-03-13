@@ -63,7 +63,7 @@ EdgeInsets _defaultPolarPadding(Size _) => const EdgeInsets.all(10);
 /// Parses the specification for a view.
 void parse<D>(
   Chart<D> spec,
-  View<D> view,
+  GraphicView<D> view,
   Size chartSize,
 ) {
   // Signal

@@ -77,7 +77,7 @@ class RegionAnnotRenderOp extends AnnotRenderOp<RegionAnnotScene> {
   RegionAnnotRenderOp(
     Map<String, dynamic> params,
     RegionAnnotScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 
   @override

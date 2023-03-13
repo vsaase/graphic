@@ -144,6 +144,6 @@ abstract class RegionBackgroundRenderOp extends Render<RegionBackgroundScene> {
   RegionBackgroundRenderOp(
     Map<String, dynamic> params,
     RegionBackgroundScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 }

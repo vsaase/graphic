@@ -192,7 +192,7 @@ class TooltipRenderOp extends Render<TooltipScene> {
   TooltipRenderOp(
     Map<String, dynamic> params,
     TooltipScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 
   @override

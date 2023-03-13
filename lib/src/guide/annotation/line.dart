@@ -64,7 +64,7 @@ class LineAnnotRenderOp extends AnnotRenderOp<LineAnnotScene> {
   LineAnnotRenderOp(
     Map<String, dynamic> params,
     LineAnnotScene scene,
-    View view,
+    GraphicView view,
   ) : super(params, scene, view);
 
   @override

@@ -19,8 +19,8 @@ abstract class Render<S extends Scene> extends Operator {
 
   /// The view.
   ///
-  /// It is imported to mark [View.dirty].
-  final View view;
+  /// It is imported to mark [GraphicView.dirty].
+  final GraphicView view;
 
   @override
   evaluate() {
